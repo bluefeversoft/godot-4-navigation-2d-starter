@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://bc0oki5d0era2"]
+
+[ext_resource type="Script" path="res://Scenes/Iceberg/iceberg.gd" id="1_murnk"]
+[ext_resource type="Texture2D" uid="uid://bi0o6b0tryhm0" path="res://assets/Iceberg.png" id="2_ynk6u"]
+
+[node name="Iceberg" type="Node2D"]
+script = ExtResource("1_murnk")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(2, 2)
+texture = ExtResource("2_ynk6u")
+
+[node name="Point1" type="Marker2D" parent="."]
+
+[node name="Point2" type="Marker2D" parent="."]

@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://bggiyeuiuw6tn"]
+
+[ext_resource type="Texture2D" uid="uid://c4ifuguhsld1v" path="res://assets/cannonBall.png" id="1_kh8b7"]
+
+[node name="Waypoint" type="Marker2D" groups=["Waypoint"]]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(2, 2)
+texture = ExtResource("1_kh8b7")
